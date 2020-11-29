@@ -1,6 +1,6 @@
-/home/roman/RIOT/examples-miem/task1/bin/unwd-range-l1-r3/application_thread/main.o: \
- /home/roman/RIOT/examples-miem/task1/main.c \
- /home/roman/RIOT/examples-miem/task1/bin/unwd-range-l1-r3/riotbuild/riotbuild.h \
+/home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread/main.o: \
+ /home/roman/RIOT/examples-miem/distance-gps/main.c \
+ /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/riotbuild/riotbuild.h \
  /home/roman/RIOT/core/include/thread.h \
  /home/roman/RIOT/core/include/clist.h \
  /opt/gcc-arm-none-eabi-9-2020-q2-update/lib/gcc/arm-none-eabi/9.3.1/include/stddef.h \
@@ -69,7 +69,7 @@
  /home/roman/RIOT/drivers/include/periph/timer.h \
  /home/roman/RIOT/drivers/include/periph/dev_enums.h \
  /home/roman/RIOT/drivers/include/periph/gpio.h \
- /home/roman/RIOT/examples-miem/task1/bin/pkg/unwd-range-l1-r3/cmsis-dsp/CMSIS/DSP/Include/arm_math.h \
+ /home/roman/RIOT/examples-miem/distance-gps/bin/pkg/unwd-range-l1-r3/cmsis-dsp/CMSIS/DSP/Include/arm_math.h \
  /opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/string.h \
  /opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/sys/string.h \
  /opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/math.h \
@@ -78,7 +78,7 @@
  /home/roman/RIOT/sys/include/lptimer/implementation.h \
  /home/roman/RIOT/drivers/include/periph/rtt.h
 
-/home/roman/RIOT/examples-miem/task1/bin/unwd-range-l1-r3/riotbuild/riotbuild.h:
+/home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/riotbuild/riotbuild.h:
 
 /home/roman/RIOT/core/include/thread.h:
 
@@ -218,7 +218,7 @@
 
 /home/roman/RIOT/drivers/include/periph/gpio.h:
 
-/home/roman/RIOT/examples-miem/task1/bin/pkg/unwd-range-l1-r3/cmsis-dsp/CMSIS/DSP/Include/arm_math.h:
+/home/roman/RIOT/examples-miem/distance-gps/bin/pkg/unwd-range-l1-r3/cmsis-dsp/CMSIS/DSP/Include/arm_math.h:
 
 /opt/gcc-arm-none-eabi-9-2020-q2-update/arm-none-eabi/include/string.h:
 

@@ -10,18 +10,22 @@
 
 int main(void) {
     int32_t rad = 6372795; //Радиус Земли в метрах
-    // q31_t delenie_na_2 = 1073741824;
 
 
     //Координаты двух чисел
     int32_t llat1 = 557539;
     int32_t llong1 = 376203;
     int32_t llat2 = 568596;
-    int32_t llong2 = 359118;
+    int32_t llong2 = 359118; 
 
     // Растояние между широтами и долготами, спереводом в q31
-    q31_t dlat = 298 * (llat2 - llat1);
-    q31_t dlon = 298 * (llong1 - llong2);
+    q31_t diff_lat_long[2]; //Создаём массив для хранения полвины разницы широт и долгот
+    						//[0] - lat
+    						//[1] - long
+	diff_lat_long[0] = 298 * (llat2 - llat1);
+    diff_lat_long[1] = 298 * (llong1 - llong2);
+    arm_abs_q31(diff_lat_long, diff_lat_long, 2);
+    printf("%ld %ld\n", diff_lat_long[0], diff_lat_long[1]);
 
 
     //Переводим широты в q31
@@ -38,8 +42,8 @@ int main(void) {
     // arm_mult_q31(&dlon, &delenie_na_2, &dlon_0_5, 2);
 
     // Находим синусы косинусы этих значений
-    q31_t sdlat = arm_sin_q31(dlat);
-    q31_t sdlon = arm_sin_q31(dlon);
+    q31_t sdlat = arm_sin_q31(diff_lat_long[0]);
+    q31_t sdlon = arm_sin_q31(diff_lat_long[1]);
     // q31_t cos_lat1 = arm_cos_q31(lat1);
     // q31_t cos_lat2 = arm_cos_q31(lat2);
 
