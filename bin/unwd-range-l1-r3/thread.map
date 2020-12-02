@@ -90,6 +90,8 @@ Archive member included to satisfy reference by file (symbol)
                               /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o (printf)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
                               /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o) (puts)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
+                              /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o) (scanf)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o) (__swbuf_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
@@ -114,20 +116,36 @@ Archive member included to satisfy reference by file (symbol)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o) (_vfprintf_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o) (_printf_i)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o) (_vfscanf_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o) (_scanf_chars)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o) (__srefill_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o) (__sccl)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o) (__sread)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o) (_strtol_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o) (_strtoul_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o) (_ungetc_r)
+/opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ctype_.o)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o) (_ctype_)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o) (__sfvwrite_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o) (memchr)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o) (memcpy)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o) (memcpy)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o) (memmove)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o) (__malloc_lock)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
-                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o) (_realloc_r)
+                              /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o) (_realloc_r)
 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
                               /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o) (_malloc_usable_size_r)
 
@@ -4305,10 +4323,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
- .text.__errno  0x0000000000000000        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
- .debug_frame   0x0000000000000000       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
- .ARM.attributes
-                0x0000000000000000       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
@@ -4323,6 +4337,11 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
+ .text._scanf_r
+                0x0000000000000000       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
@@ -4333,7 +4352,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
- .text.fflush   0x0000000000000000       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
@@ -4350,7 +4368,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
- .text._fwalk   0x0000000000000000       0x3a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
@@ -4390,11 +4407,45 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .text.vfscanf  0x0000000000000000       0x58 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .text.__svfscanf
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
  .text.__seofread
                 0x0000000000000000        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .text.strtol_l
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .text.strtol   0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .text.strtoul_l
+                0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .text.strtoul  0x0000000000000000       0x14 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+ .text.ungetc   0x0000000000000000       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+ .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ctype_.o)
+ .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ctype_.o)
+ .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ctype_.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fvwrite.o)
@@ -4409,10 +4460,6 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .text.memcpy   0x0000000000000000       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .debug_frame   0x0000000000000000       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
- .ARM.attributes
-                0x0000000000000000       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memmove.o)
@@ -4426,19 +4473,9 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .text._realloc_r
-                0x0000000000000000       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .debug_frame   0x0000000000000000       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
- .ARM.attributes
-                0x0000000000000000       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
  .text          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
  .data          0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
  .bss           0x0000000000000000        0x0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .text._malloc_usable_size_r
-                0x0000000000000000       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .debug_frame   0x0000000000000000       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
- .ARM.attributes
-                0x0000000000000000       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
 
 Memory Configuration
 
@@ -4497,7 +4534,7 @@ END GROUP
                 0x0000000000080000                _fw_rom_length = DEFINED (_fw_rom_length)?_fw_rom_length:(_rom_length - _rom_offset)
                 0x0000000000000001                ASSERT ((_fw_rom_length <= (_rom_length - _rom_offset)), Specified firmware size does not fit in ROM)
 
-.text           0x0000000008000000     0x3d84
+.text           0x0000000008000000     0x4b60
                 0x0000000008000000                . = ALIGN (0x4)
                 0x0000000008000000                _sfixed = .
                 0x0000000008000000                _isr_vectors = DEFINED (_isr_vectors)?_isr_vectors:.
@@ -4817,315 +4854,381 @@ END GROUP
                 0x0000000008001706        0x2 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/periph_common.a(init.o)
                 0x0000000008001706                periph_init
  .text.startup.main
-                0x0000000008001708       0xe8 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+                0x0000000008001708      0x104 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
                 0x0000000008001708                main
  .text.auto_init
-                0x00000000080017f0        0xe /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
-                0x00000000080017f0                auto_init
+                0x000000000800180c        0xe /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
+                0x000000000800180c                auto_init
  .text.arm_mult_q31
-                0x00000000080017fe       0x3c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
-                0x00000000080017fe                arm_mult_q31
+                0x000000000800181a       0x3c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
+                0x000000000800181a                arm_mult_q31
  .text.arm_abs_q31
-                0x000000000800183a       0x26 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
-                0x000000000800183a                arm_abs_q31
+                0x0000000008001856       0x26 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
+                0x0000000008001856                arm_abs_q31
  .text.arm_add_q31
-                0x0000000008001860       0x32 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
-                0x0000000008001860                arm_add_q31
- *fill*         0x0000000008001892        0x2 
+                0x000000000800187c       0x32 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
+                0x000000000800187c                arm_add_q31
+ *fill*         0x00000000080018ae        0x2 
  .text.arm_sin_q31
-                0x0000000008001894       0x38 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
-                0x0000000008001894                arm_sin_q31
+                0x00000000080018b0       0x38 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
+                0x00000000080018b0                arm_sin_q31
  .text.arm_cos_q31
-                0x00000000080018cc       0x44 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
-                0x00000000080018cc                arm_cos_q31
+                0x00000000080018e8       0x44 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
+                0x00000000080018e8                arm_cos_q31
  .text.arm_sqrt_q31
-                0x0000000008001910       0xec /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
-                0x0000000008001910                arm_sqrt_q31
+                0x000000000800192c       0xec /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
+                0x000000000800192c                arm_sqrt_q31
  .text._mutex_lock
-                0x00000000080019fc       0x60 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
-                0x00000000080019fc                _mutex_lock
+                0x0000000008001a18       0x60 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+                0x0000000008001a18                _mutex_lock
  .text.mutex_unlock
-                0x0000000008001a5c       0x4c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
-                0x0000000008001a5c                mutex_unlock
+                0x0000000008001a78       0x4c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+                0x0000000008001a78                mutex_unlock
  .text._lptimer_now
-                0x0000000008001aa8       0x18 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+                0x0000000008001ac4       0x18 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
  .text._lltimer_set
-                0x0000000008001ac0       0x1c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+                0x0000000008001adc       0x1c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
  .text._next_period
-                0x0000000008001adc       0xc4 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+                0x0000000008001af8       0xc4 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
  .text._periph_timer_callback
-                0x0000000008001ba0       0xdc /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+                0x0000000008001bbc       0xdc /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
  .text.lptimer_init
-                0x0000000008001c7c       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
-                0x0000000008001c7c                lptimer_init
- *fill*         0x0000000008001c8e        0x2 
+                0x0000000008001c98       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+                0x0000000008001c98                lptimer_init
+ *fill*         0x0000000008001caa        0x2 
  .text.rtt_init
-                0x0000000008001c90       0xa8 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
-                0x0000000008001c90                rtt_init
+                0x0000000008001cac       0xa8 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+                0x0000000008001cac                rtt_init
  .text.rtt_get_counter
-                0x0000000008001d38       0x20 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
-                0x0000000008001d38                rtt_get_counter
+                0x0000000008001d54       0x20 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+                0x0000000008001d54                rtt_get_counter
  .text.rtt_set_alarm
-                0x0000000008001d58       0x64 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
-                0x0000000008001d58                rtt_set_alarm
+                0x0000000008001d74       0x64 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+                0x0000000008001d74                rtt_set_alarm
  .text.isr_rtc_alarm
-                0x0000000008001dbc       0x4c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
-                0x0000000008001dbc                isr_rtc_alarm
+                0x0000000008001dd8       0x4c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+                0x0000000008001dd8                isr_rtc_alarm
  .text.stmclk_dbp_unlock
-                0x0000000008001e08       0x10 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
-                0x0000000008001e08                stmclk_dbp_unlock
+                0x0000000008001e24       0x10 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+                0x0000000008001e24                stmclk_dbp_unlock
  .text.stmclk_dbp_lock
-                0x0000000008001e18       0x10 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
-                0x0000000008001e18                stmclk_dbp_lock
+                0x0000000008001e34       0x10 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+                0x0000000008001e34                stmclk_dbp_lock
  .text.stmclk_enable_lfclk
-                0x0000000008001e28       0x24 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
-                0x0000000008001e28                stmclk_enable_lfclk
- .text          0x0000000008001e4c      0x168 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
-                0x0000000008001e4c                __mulsf3
-                0x0000000008001e4c                __aeabi_fmul
- .text          0x0000000008001fb4      0x21c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
-                0x0000000008001fb4                __aeabi_frsub
-                0x0000000008001fbc                __subsf3
-                0x0000000008001fbc                __aeabi_fsub
-                0x0000000008001fc0                __aeabi_fadd
-                0x0000000008001fc0                __addsf3
-                0x0000000008002120                __aeabi_ui2f
-                0x0000000008002120                __floatunsisf
-                0x0000000008002128                __aeabi_i2f
-                0x0000000008002128                __floatsisf
-                0x0000000008002144                __floatundisf
-                0x0000000008002144                __aeabi_ul2f
-                0x0000000008002154                __floatdisf
-                0x0000000008002154                __aeabi_l2f
- .text          0x00000000080021d0       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
-                0x00000000080021d0                __fixsfsi
-                0x00000000080021d0                __aeabi_f2iz
+                0x0000000008001e44       0x24 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+                0x0000000008001e44                stmclk_enable_lfclk
+ .text          0x0000000008001e68      0x168 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
+                0x0000000008001e68                __mulsf3
+                0x0000000008001e68                __aeabi_fmul
+ .text          0x0000000008001fd0      0x21c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
+                0x0000000008001fd0                __aeabi_frsub
+                0x0000000008001fd8                __subsf3
+                0x0000000008001fd8                __aeabi_fsub
+                0x0000000008001fdc                __aeabi_fadd
+                0x0000000008001fdc                __addsf3
+                0x000000000800213c                __aeabi_ui2f
+                0x000000000800213c                __floatunsisf
+                0x0000000008002144                __aeabi_i2f
+                0x0000000008002144                __floatsisf
+                0x0000000008002160                __floatundisf
+                0x0000000008002160                __aeabi_ul2f
+                0x0000000008002170                __floatdisf
+                0x0000000008002170                __aeabi_l2f
+ .text          0x00000000080021ec       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
+                0x00000000080021ec                __fixsfsi
+                0x00000000080021ec                __aeabi_f2iz
+ .text.__errno  0x0000000008002238        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
+                0x0000000008002238                __errno
  .text.__libc_init_array
-                0x000000000800221c       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
-                0x000000000800221c                __libc_init_array
- .text.printf   0x0000000008002264       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o)
-                0x0000000008002264                printf
-                0x0000000008002264                iprintf
- .text._puts_r  0x0000000008002294       0xdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
-                0x0000000008002294                _puts_r
- .text.puts     0x0000000008002370       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
-                0x0000000008002370                puts
+                0x0000000008002244       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                0x0000000008002244                __libc_init_array
+ .text.printf   0x000000000800228c       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o)
+                0x000000000800228c                printf
+                0x000000000800228c                iprintf
+ .text._puts_r  0x00000000080022bc       0xdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
+                0x00000000080022bc                _puts_r
+ .text.puts     0x0000000008002398       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
+                0x0000000008002398                puts
+ .text.scanf    0x00000000080023a8       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
+                0x00000000080023a8                iscanf
+                0x00000000080023a8                scanf
  .text.__swbuf_r
-                0x0000000008002380       0xa4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
-                0x0000000008002380                __swbuf_r
+                0x00000000080023d8       0xa4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
+                0x00000000080023d8                __swbuf_r
  .text.__swsetup_r
-                0x0000000008002424       0xdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
-                0x0000000008002424                __swsetup_r
+                0x000000000800247c       0xdc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
+                0x000000000800247c                __swsetup_r
  .text.__sflush_r
-                0x0000000008002500      0x10c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
-                0x0000000008002500                __sflush_r
+                0x0000000008002558      0x10c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
+                0x0000000008002558                __sflush_r
  .text._fflush_r
-                0x000000000800260c       0x78 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
-                0x000000000800260c                _fflush_r
- .text.std      0x0000000008002684       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000008002664       0x78 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
+                0x0000000008002664                _fflush_r
+ .text.fflush   0x00000000080026dc       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
+                0x00000000080026dc                fflush
+ .text.std      0x0000000008002700       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
  .text._cleanup_r
-                0x00000000080026cc        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x00000000080026cc                _cleanup_r
+                0x0000000008002748        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000008002748                _cleanup_r
  .text.__sfmoreglue
-                0x00000000080026d8       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x00000000080026d8                __sfmoreglue
+                0x0000000008002754       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000008002754                __sfmoreglue
  .text.__sfp_lock_acquire
-                0x0000000008002704        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008002704                __sfp_lock_acquire
+                0x0000000008002780        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000008002780                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0000000008002710        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008002710                __sfp_lock_release
+                0x000000000800278c        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x000000000800278c                __sfp_lock_release
  .text.__sinit_lock_acquire
-                0x000000000800271c        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x000000000800271c                __sinit_lock_acquire
+                0x0000000008002798        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000008002798                __sinit_lock_acquire
  .text.__sinit_lock_release
-                0x0000000008002728        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008002728                __sinit_lock_release
- .text.__sinit  0x0000000008002734       0x70 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008002734                __sinit
- .text.__sfp    0x00000000080027a4       0x8c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x00000000080027a4                __sfp
+                0x00000000080027a4        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x00000000080027a4                __sinit_lock_release
+ .text.__sinit  0x00000000080027b0       0x70 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x00000000080027b0                __sinit
+ .text.__sfp    0x0000000008002820       0x8c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000008002820                __sfp
+ .text._fwalk   0x00000000080028ac       0x3a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
+                0x00000000080028ac                _fwalk
  .text._fwalk_reent
-                0x0000000008002830       0x3e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
-                0x0000000008002830                _fwalk_reent
+                0x00000000080028e6       0x3e /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
+                0x00000000080028e6                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x000000000800286e        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x000000000800286e                __retarget_lock_init_recursive
+                0x0000000008002924        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008002924                __retarget_lock_init_recursive
  .text.__retarget_lock_acquire_recursive
-                0x0000000008002870        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x0000000008002870                __retarget_lock_acquire_recursive
+                0x0000000008002926        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008002926                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0000000008002872        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
-                0x0000000008002872                __retarget_lock_release_recursive
+                0x0000000008002928        0x2 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x0000000008002928                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x0000000008002874       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
-                0x0000000008002874                __swhatbuf_r
+                0x000000000800292a       0x48 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
+                0x000000000800292a                __swhatbuf_r
+ *fill*         0x0000000008002972        0x2 
  .text.__smakebuf_r
-                0x00000000080028bc       0x80 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
-                0x00000000080028bc                __smakebuf_r
- .text.memset   0x000000000800293c       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
-                0x000000000800293c                memset
- .text._free_r  0x000000000800294c       0x98 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
-                0x000000000800294c                _free_r
+                0x0000000008002974       0x80 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
+                0x0000000008002974                __smakebuf_r
+ .text.memset   0x00000000080029f4       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x00000000080029f4                memset
+ .text._free_r  0x0000000008002a04       0x98 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000008002a04                _free_r
  .text._malloc_r
-                0x00000000080029e4       0xb4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
-                0x00000000080029e4                _malloc_r
+                0x0000000008002a9c       0xb4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000008002a9c                _malloc_r
  .text.__sfputc_r
-                0x0000000008002a98       0x2a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008002b50       0x2a /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
  .text.__sfputs_r
-                0x0000000008002ac2       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000008002ac2                __sfputs_r
- *fill*         0x0000000008002ae6        0x2 
+                0x0000000008002b7a       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008002b7a                __sfputs_r
+ *fill*         0x0000000008002b9e        0x2 
  .text._vfprintf_r
-                0x0000000008002ae8      0x260 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
-                0x0000000008002ae8                _vfiprintf_r
-                0x0000000008002ae8                _vfprintf_r
+                0x0000000008002ba0      0x260 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008002ba0                _vfiprintf_r
+                0x0000000008002ba0                _vfprintf_r
  .text._printf_common
-                0x0000000008002d48       0xde /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008002d48                _printf_common
- *fill*         0x0000000008002e26        0x2 
+                0x0000000008002e00       0xde /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008002e00                _printf_common
+ *fill*         0x0000000008002ede        0x2 
  .text._printf_i
-                0x0000000008002e28      0x24c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
-                0x0000000008002e28                _printf_i
- .text.__sread  0x0000000008003074       0x22 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
-                0x0000000008003074                __sread
+                0x0000000008002ee0      0x24c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008002ee0                _printf_i
+ .text.__svfscanf_r
+                0x000000000800312c      0x348 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+                0x000000000800312c                __svfiscanf_r
+                0x000000000800312c                __svfscanf_r
+ .text._vfscanf_r
+                0x0000000008003474       0x50 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+                0x0000000008003474                _vfiscanf_r
+                0x0000000008003474                _vfscanf_r
+ .text._scanf_chars
+                0x00000000080034c4       0xb0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x00000000080034c4                _scanf_chars
+ .text._scanf_i
+                0x0000000008003574      0x1e4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+                0x0000000008003574                _scanf_i
+ .text.lflush   0x0000000008003758       0x12 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+ *fill*         0x000000000800376a        0x2 
+ .text.__srefill_r
+                0x000000000800376c      0x118 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+                0x000000000800376c                __srefill_r
+ .text.__sccl   0x0000000008003884       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
+                0x0000000008003884                __sccl
+ .text.__sread  0x00000000080038f8       0x22 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+                0x00000000080038f8                __sread
  .text.__swrite
-                0x0000000008003096       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
-                0x0000000008003096                __swrite
- .text.__sseek  0x00000000080030ce       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
-                0x00000000080030ce                __sseek
+                0x000000000800391a       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+                0x000000000800391a                __swrite
+ .text.__sseek  0x0000000008003952       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+                0x0000000008003952                __sseek
  .text.__sclose
-                0x00000000080030f2        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
-                0x00000000080030f2                __sclose
- .text.memchr   0x00000000080030fa       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
-                0x00000000080030fa                memchr
- *fill*         0x0000000008003116        0x2 
+                0x0000000008003976        0x8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+                0x0000000008003976                __sclose
+ *fill*         0x000000000800397e        0x2 
+ .text._strtol_l.isra.0
+                0x0000000008003980      0x10c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .text._strtol_r
+                0x0000000008003a8c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+                0x0000000008003a8c                _strtol_r
+ .text._strtoul_l.isra.0
+                0x0000000008003a90       0xf8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .text._strtoul_r
+                0x0000000008003b88        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+                0x0000000008003b88                _strtoul_r
+ .text.__submore
+                0x0000000008003b8c       0x70 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+                0x0000000008003b8c                __submore
+ .text._ungetc_r
+                0x0000000008003bfc      0x130 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+                0x0000000008003bfc                _ungetc_r
+ .text.memchr   0x0000000008003d2c       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000008003d2c                memchr
+ .text.memcpy   0x0000000008003d48       0x1c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008003d48                memcpy
  .text.__malloc_lock
-                0x0000000008003118        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x0000000008003118                __malloc_lock
+                0x0000000008003d64        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008003d64                __malloc_lock
  .text.__malloc_unlock
-                0x0000000008003124        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
-                0x0000000008003124                __malloc_unlock
+                0x0000000008003d70        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000008003d70                __malloc_unlock
+ .text._realloc_r
+                0x0000000008003d7c       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+                0x0000000008003d7c                _realloc_r
+ .text._malloc_usable_size_r
+                0x0000000008003dc8       0x10 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
+                0x0000000008003dc8                _malloc_usable_size_r
  *(.glue_7t)
- .glue_7t       0x0000000008003130        0x0 linker stubs
+ .glue_7t       0x0000000008003dd8        0x0 linker stubs
  *(.glue_7)
- .glue_7        0x0000000008003130        0x0 linker stubs
+ .glue_7        0x0000000008003dd8        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
  .rodata.nmi_default.str1.1
-                0x0000000008003130        0xc /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+                0x0000000008003dd8        0xc /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
  .rodata.mem_manage_default.str1.1
-                0x000000000800313c       0x13 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+                0x0000000008003de4       0x13 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
  .rodata.bus_fault_default.str1.1
-                0x000000000800314f       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+                0x0000000008003df7       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
  .rodata.usage_fault_default.str1.1
-                0x0000000008003161       0x14 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+                0x0000000008003e09       0x14 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
  .rodata.debug_mon_default.str1.1
-                0x0000000008003175       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+                0x0000000008003e1d       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
  .rodata.dummy_handler_default.str1.1
-                0x0000000008003187        0xe /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+                0x0000000008003e2f        0xe /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
  .rodata.hard_fault_handler.str1.1
-                0x0000000008003195      0x1f4 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
- *fill*         0x0000000008003389        0x3 
+                0x0000000008003e3d      0x1f4 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(vectors_cortexm.o)
+ *fill*         0x0000000008004031        0x3 
  .rodata.uart_config
-                0x000000000800338c       0x48 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(uart.o)
+                0x0000000008004034       0x48 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(uart.o)
  .rodata.uart_config
-                0x00000000080033d4       0x48 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(pm.o)
+                0x000000000800407c       0x48 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(pm.o)
  .rodata.core_panic.str1.1
-                0x000000000800341c       0x2e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(panic.o)
+                0x00000000080040c4       0x2e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(panic.o)
  .rodata.assert_crash_message
-                0x000000000800344a       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(panic.o)
-                0x000000000800344a                assert_crash_message
+                0x00000000080040f2       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(panic.o)
+                0x00000000080040f2                assert_crash_message
  .rodata.main_trampoline.str1.1
-                0x000000000800345c       0x30 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(kernel_init.o)
+                0x0000000008004104       0x30 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(kernel_init.o)
  .rodata.str1.1
-                0x000000000800348c        0xa /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(kernel_init.o)
+                0x0000000008004134        0xa /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(kernel_init.o)
  .rodata.apbmul
-                0x0000000008003496        0x2 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(cpu_common.o)
+                0x000000000800413e        0x2 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(cpu_common.o)
  .rodata.CSWTCH.1
-                0x0000000008003498       0x22 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stm_status.o)
- *fill*         0x00000000080034ba        0x2 
+                0x0000000008004140       0x22 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stm_status.o)
+ *fill*         0x0000000008004162        0x2 
  .rodata.timer_config
-                0x00000000080034bc       0x20 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(timer.o)
+                0x0000000008004164       0x20 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(timer.o)
  .rodata.main.str1.1
-                0x00000000080034dc        0x9 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
-                                          0xe (size before relaxing)
- *fill*         0x00000000080034e5        0x3 
+                0x0000000008004184       0x12 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+                                         0x1f (size before relaxing)
+ *fill*         0x0000000008004196        0x2 
  .rodata.sinTable_q31
-                0x00000000080034e8      0x804 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
-                0x00000000080034e8                sinTable_q31
+                0x0000000008004198      0x804 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
+                0x0000000008004198                sinTable_q31
  .rodata._global_impure_ptr
-                0x0000000008003cec        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
-                0x0000000008003cec                _global_impure_ptr
+                0x000000000800499c        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x000000000800499c                _global_impure_ptr
  .rodata.__sf_fake_stderr
-                0x0000000008003cf0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008003cf0                __sf_fake_stderr
+                0x00000000080049a0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x00000000080049a0                __sf_fake_stderr
  .rodata.__sf_fake_stdin
-                0x0000000008003d10       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008003d10                __sf_fake_stdin
+                0x00000000080049c0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x00000000080049c0                __sf_fake_stdin
  .rodata.__sf_fake_stdout
-                0x0000000008003d30       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
-                0x0000000008003d30                __sf_fake_stdout
+                0x00000000080049e0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x00000000080049e0                __sf_fake_stdout
  .rodata._vfprintf_r.str1.1
-                0x0000000008003d50       0x11 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000008004a00       0x11 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
  .rodata._printf_i.str1.1
-                0x0000000008003d61       0x22 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x0000000008004a11       0x22 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .rodata.__svfscanf_r.str1.1
+                0x0000000008004a33        0x4 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .rodata.str1.1
+                0x0000000008004a33        0x9 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .rodata._scanf_i.str1.1
+                0x0000000008004a3c       0x12 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ *fill*         0x0000000008004a4e        0x2 
+ .rodata        0x0000000008004a50        0xc /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .rodata._ctype_
+                0x0000000008004a5c      0x101 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ctype_.o)
+                0x0000000008004a5c                _ctype_
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000008003d84                . = ALIGN (0x4)
- *fill*         0x0000000008003d83        0x1 
+                0x0000000008004b60                . = ALIGN (0x4)
+ *fill*         0x0000000008004b5d        0x3 
  *(.init)
-                0x0000000008003d84                . = ALIGN (0x4)
-                0x0000000008003d84                __preinit_array_start = .
+                0x0000000008004b60                . = ALIGN (0x4)
+                0x0000000008004b60                __preinit_array_start = .
  *(.preinit_array)
-                0x0000000008003d84                __preinit_array_end = .
-                0x0000000008003d84                . = ALIGN (0x4)
-                0x0000000008003d84                __init_array_start = .
+                0x0000000008004b60                __preinit_array_end = .
+                0x0000000008004b60                . = ALIGN (0x4)
+                0x0000000008004b60                __init_array_start = .
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
-                0x0000000008003d84                __init_array_end = .
-                0x0000000008003d84                . = ALIGN (0x4)
+                0x0000000008004b60                __init_array_end = .
+                0x0000000008004b60                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT_BY_NAME(.ctors.*))
  *crtend.o(.ctors)
-                0x0000000008003d84                . = ALIGN (0x4)
+                0x0000000008004b60                . = ALIGN (0x4)
  *(.fini)
-                0x0000000008003d84                . = ALIGN (0x4)
-                0x0000000008003d84                __fini_array_start = .
+                0x0000000008004b60                . = ALIGN (0x4)
+                0x0000000008004b60                __fini_array_start = .
  *(.fini_array)
  *(SORT_BY_NAME(.fini_array.*))
-                0x0000000008003d84                __fini_array_end = .
+                0x0000000008004b60                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *crtend.o(.dtors)
-                0x0000000008003d84                . = ALIGN (0x4)
-                0x0000000008003d84                _efixed = .
+                0x0000000008004b60                . = ALIGN (0x4)
+                0x0000000008004b60                _efixed = .
                 [!provide]                        PROVIDE (__exidx_start = .)
 
-.vfp11_veneer   0x0000000008003d84        0x0
- .vfp11_veneer  0x0000000008003d84        0x0 linker stubs
+.vfp11_veneer   0x0000000008004b60        0x0
+ .vfp11_veneer  0x0000000008004b60        0x0 linker stubs
 
-.v4_bx          0x0000000008003d84        0x0
- .v4_bx         0x0000000008003d84        0x0 linker stubs
+.v4_bx          0x0000000008004b60        0x0
+ .v4_bx         0x0000000008004b60        0x0 linker stubs
 
-.iplt           0x0000000008003d84        0x0
- .iplt          0x0000000008003d84        0x0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
+.iplt           0x0000000008004b60        0x0
+ .iplt          0x0000000008004b60        0x0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
 
-.igot.plt       0x0000000008003d84        0x0
- .igot.plt      0x0000000008003d84        0x0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
+.igot.plt       0x0000000008004b60        0x0
+ .igot.plt      0x0000000008004b60        0x0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
 
-.rel.dyn        0x0000000008003d84        0x0
- .rel.iplt      0x0000000008003d84        0x0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
+.rel.dyn        0x0000000008004b60        0x0
+ .rel.iplt      0x0000000008004b60        0x0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
                 [!provide]                        PROVIDE (__exidx_end = .)
-                0x0000000008003d84                . = ALIGN (0x4)
+                0x0000000008004b60                . = ALIGN (0x4)
 
 .eh_frame
  *(.eh_frame)
-                0x0000000008003d84                . = ALIGN (0x4)
-                0x0000000008003d84                _etext = .
+                0x0000000008004b60                . = ALIGN (0x4)
+                0x0000000008004b60                _etext = .
 
 .stack          0x0000000020000000      0x200
  *(.puf)
@@ -5137,7 +5240,7 @@ END GROUP
                 0x0000000020000200                . = ALIGN (0x8)
                 0x0000000020000200                _estack = .
 
-.relocate       0x0000000020000200       0x8c load address 0x0000000008003d84
+.relocate       0x0000000020000200       0x8c load address 0x0000000008004b60
                 0x0000000020000200                . = ALIGN (0x4)
                 0x0000000020000200                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -5170,13 +5273,13 @@ END GROUP
  *fill*         0x000000002000028a        0x2 
                 0x000000002000028c                _erelocate = .
 
-.noinit         0x000000002000028c        0x0 load address 0x0000000008003e10
+.noinit         0x000000002000028c        0x0 load address 0x0000000008004bec
                 0x000000002000028c                __noinit_start = .
  *(.noinit)
                 0x000000002000028c                . = ALIGN (0x4)
                 0x000000002000028c                __noinit_end = .
 
-.bss            0x000000002000028c      0xfac load address 0x0000000008003e10
+.bss            0x000000002000028c      0xfac load address 0x0000000008004bec
                 0x000000002000028c                . = ALIGN (0x4)
                 0x000000002000028c                _sbss = .
                 0x000000002000028c                _szero = .
@@ -5288,7 +5391,7 @@ END GROUP
 OUTPUT(/home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/thread.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x0000000000000000    0x3753b
+.debug_info     0x0000000000000000    0x37538
  .debug_info    0x0000000000000000      0x105 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
  .debug_info    0x0000000000000105     0x257c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o
  .debug_info    0x0000000000002681      0xfe5 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(sched.o)
@@ -5314,21 +5417,21 @@ LOAD linker stubs
  .debug_info    0x00000000000230a3     0x24bb /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(timer.o)
  .debug_info    0x000000000002555e      0x434 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/tsrb.a(tsrb.o)
  .debug_info    0x0000000000025992       0x3c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/periph_common.a(init.o)
- .debug_info    0x00000000000259ce     0x1dd1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
- .debug_info    0x000000000002779f     0x1a6a /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
- .debug_info    0x0000000000029209      0xa64 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
- .debug_info    0x0000000000029c6d      0xa01 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
- .debug_info    0x000000000002a66e      0xa64 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
- .debug_info    0x000000000002b0d2     0x1163 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
- .debug_info    0x000000000002c235     0x1163 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
- .debug_info    0x000000000002d398     0x123f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
- .debug_info    0x000000000002e5d7     0x141e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
- .debug_info    0x000000000002f9f5     0x105f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
- .debug_info    0x0000000000030a54     0x2b6e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
- .debug_info    0x00000000000335c2     0x23de /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
- .debug_info    0x00000000000359a0     0x1b9b /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+ .debug_info    0x00000000000259ce     0x1dce /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+ .debug_info    0x000000000002779c     0x1a6a /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
+ .debug_info    0x0000000000029206      0xa64 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
+ .debug_info    0x0000000000029c6a      0xa01 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
+ .debug_info    0x000000000002a66b      0xa64 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
+ .debug_info    0x000000000002b0cf     0x1163 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
+ .debug_info    0x000000000002c232     0x1163 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
+ .debug_info    0x000000000002d395     0x123f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
+ .debug_info    0x000000000002e5d4     0x141e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
+ .debug_info    0x000000000002f9f2     0x105f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+ .debug_info    0x0000000000030a51     0x2b6e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+ .debug_info    0x00000000000335bf     0x23de /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+ .debug_info    0x000000000003599d     0x1b9b /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
 
-.debug_abbrev   0x0000000000000000     0x73c8
+.debug_abbrev   0x0000000000000000     0x73a3
  .debug_abbrev  0x0000000000000000       0xcf /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
  .debug_abbrev  0x00000000000000cf      0x4c0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o
  .debug_abbrev  0x000000000000058f      0x39f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(sched.o)
@@ -5354,19 +5457,19 @@ LOAD linker stubs
  .debug_abbrev  0x0000000000004acd      0x480 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(timer.o)
  .debug_abbrev  0x0000000000004f4d      0x1c9 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/tsrb.a(tsrb.o)
  .debug_abbrev  0x0000000000005116       0x31 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/periph_common.a(init.o)
- .debug_abbrev  0x0000000000005147      0x2d4 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
- .debug_abbrev  0x000000000000541b      0x248 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
- .debug_abbrev  0x0000000000005663      0x21d /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
- .debug_abbrev  0x0000000000005880      0x1ed /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
- .debug_abbrev  0x0000000000005a6d      0x21d /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
- .debug_abbrev  0x0000000000005c8a      0x1f1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
- .debug_abbrev  0x0000000000005e7b      0x1f1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
- .debug_abbrev  0x000000000000606c      0x20c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
- .debug_abbrev  0x0000000000006278      0x1b6 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
- .debug_abbrev  0x000000000000642e      0x311 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
- .debug_abbrev  0x000000000000673f      0x654 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
- .debug_abbrev  0x0000000000006d93      0x3f1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
- .debug_abbrev  0x0000000000007184      0x244 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+ .debug_abbrev  0x0000000000005147      0x2af /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+ .debug_abbrev  0x00000000000053f6      0x248 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
+ .debug_abbrev  0x000000000000563e      0x21d /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
+ .debug_abbrev  0x000000000000585b      0x1ed /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
+ .debug_abbrev  0x0000000000005a48      0x21d /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
+ .debug_abbrev  0x0000000000005c65      0x1f1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
+ .debug_abbrev  0x0000000000005e56      0x1f1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
+ .debug_abbrev  0x0000000000006047      0x20c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
+ .debug_abbrev  0x0000000000006253      0x1b6 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
+ .debug_abbrev  0x0000000000006409      0x311 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+ .debug_abbrev  0x000000000000671a      0x654 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+ .debug_abbrev  0x0000000000006d6e      0x3f1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+ .debug_abbrev  0x000000000000715f      0x244 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
 
 .debug_aranges  0x0000000000000000      0x970
  .debug_aranges
@@ -5683,7 +5786,7 @@ LOAD linker stubs
  .debug_macro   0x000000000002b3a4      0x338 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
  .debug_macro   0x000000000002b6dc      0xa90 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
 
-.debug_line     0x0000000000000000    0x13d6a
+.debug_line     0x0000000000000000    0x13d86
  .debug_line    0x0000000000000000      0x373 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
  .debug_line    0x0000000000000373      0xc04 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o
  .debug_line    0x0000000000000f77      0x895 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(sched.o)
@@ -5709,21 +5812,21 @@ LOAD linker stubs
  .debug_line    0x000000000000c814      0xcbd /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(timer.o)
  .debug_line    0x000000000000d4d1      0x356 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/tsrb.a(tsrb.o)
  .debug_line    0x000000000000d827       0xb5 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/periph_common.a(init.o)
- .debug_line    0x000000000000d8dc      0x932 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
- .debug_line    0x000000000000e20e      0x825 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
- .debug_line    0x000000000000ea33      0x5a3 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
- .debug_line    0x000000000000efd6      0x591 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
- .debug_line    0x000000000000f567      0x596 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
- .debug_line    0x000000000000fafd      0x59b /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
- .debug_line    0x0000000000010098      0x5ab /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
- .debug_line    0x0000000000010643      0x66c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
- .debug_line    0x0000000000010caf      0x544 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
- .debug_line    0x00000000000111f3      0x7bd /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
- .debug_line    0x00000000000119b0     0x11d9 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
- .debug_line    0x0000000000012b89      0xa32 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
- .debug_line    0x00000000000135bb      0x7af /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+ .debug_line    0x000000000000d8dc      0x94e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+ .debug_line    0x000000000000e22a      0x825 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
+ .debug_line    0x000000000000ea4f      0x5a3 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
+ .debug_line    0x000000000000eff2      0x591 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
+ .debug_line    0x000000000000f583      0x596 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
+ .debug_line    0x000000000000fb19      0x59b /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
+ .debug_line    0x00000000000100b4      0x5ab /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
+ .debug_line    0x000000000001065f      0x66c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
+ .debug_line    0x0000000000010ccb      0x544 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
+ .debug_line    0x000000000001120f      0x7bd /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+ .debug_line    0x00000000000119cc     0x11d9 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+ .debug_line    0x0000000000012ba5      0xa32 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+ .debug_line    0x00000000000135d7      0x7af /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
 
-.debug_str      0x0000000000000000    0x410d3
+.debug_str      0x0000000000000000    0x410d9
  .debug_str     0x0000000000000000    0x32ae1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
                                       0x32c57 (size before relaxing)
  .debug_str     0x0000000000032ae1     0x90a0 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o
@@ -5774,31 +5877,31 @@ LOAD linker stubs
                                        0x383f (size before relaxing)
  .debug_str     0x000000000003e528       0xa1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/periph_common.a(init.o)
                                        0x31ec (size before relaxing)
- .debug_str     0x000000000003e5c9     0x106e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
-                                      0x3af15 (size before relaxing)
- .debug_str     0x000000000003f637       0xa5 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
+ .debug_str     0x000000000003e5c9     0x1074 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+                                      0x3af1b (size before relaxing)
+ .debug_str     0x000000000003f63d       0xa5 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/auto_init.a(auto_init.o)
                                       0x3a43d (size before relaxing)
- .debug_str     0x000000000003f6dc      0x196 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
+ .debug_str     0x000000000003f6e2      0x196 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
                                       0x36fc4 (size before relaxing)
- .debug_str     0x000000000003f872      0x11e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
+ .debug_str     0x000000000003f878      0x11e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
                                       0x36f91 (size before relaxing)
- .debug_str     0x000000000003f990      0x119 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
+ .debug_str     0x000000000003f996      0x119 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
                                       0x36fc0 (size before relaxing)
- .debug_str     0x000000000003faa9      0xa21 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
+ .debug_str     0x000000000003faaf      0xa21 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
                                       0x378cd (size before relaxing)
- .debug_str     0x00000000000404ca      0x11e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
+ .debug_str     0x00000000000404d0      0x11e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
                                       0x378cd (size before relaxing)
- .debug_str     0x00000000000405e8      0x209 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
+ .debug_str     0x00000000000405ee      0x209 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
                                       0x379ab (size before relaxing)
- .debug_str     0x00000000000407f1      0x11f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
+ .debug_str     0x00000000000407f7      0x11f /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_common_tables.o)
                                       0x3788a (size before relaxing)
- .debug_str     0x0000000000040910       0xa6 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+ .debug_str     0x0000000000040916       0xa6 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
                                       0x38a7a (size before relaxing)
- .debug_str     0x00000000000409b6      0x1b1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+ .debug_str     0x00000000000409bc      0x1b1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
                                       0x3a564 (size before relaxing)
- .debug_str     0x0000000000040b67      0x445 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+ .debug_str     0x0000000000040b6d      0x445 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
                                       0x39ffe (size before relaxing)
- .debug_str     0x0000000000040fac      0x127 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
+ .debug_str     0x0000000000040fb2      0x127 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stmclk_common.o)
                                       0x396e6 (size before relaxing)
 
 .comment        0x0000000000000000       0x4c
@@ -5927,45 +6030,71 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000000000006ee       0x1d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
  .ARM.attributes
-                0x000000000000070b       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
+                0x000000000000070b       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
  .ARM.attributes
-                0x0000000000000738       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+                0x0000000000000738       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-impure.o)
  .ARM.attributes
-                0x0000000000000765       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o)
+                0x0000000000000765       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
  .ARM.attributes
-                0x0000000000000792       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
+                0x0000000000000792       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o)
  .ARM.attributes
-                0x00000000000007bf       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
+                0x00000000000007bf       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
  .ARM.attributes
-                0x00000000000007ec       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
+                0x00000000000007ec       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
  .ARM.attributes
-                0x0000000000000819       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
+                0x0000000000000819       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
  .ARM.attributes
-                0x0000000000000846       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+                0x0000000000000846       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
  .ARM.attributes
-                0x0000000000000873       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
+                0x0000000000000873       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
  .ARM.attributes
-                0x00000000000008a0       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+                0x00000000000008a0       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
  .ARM.attributes
-                0x00000000000008cd       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
+                0x00000000000008cd       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x00000000000008fa       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+                0x00000000000008fa       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
  .ARM.attributes
-                0x0000000000000927       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+                0x0000000000000927       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x0000000000000954       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+                0x0000000000000954       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
  .ARM.attributes
-                0x0000000000000981       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
+                0x0000000000000981       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
  .ARM.attributes
-                0x00000000000009ae       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+                0x00000000000009ae       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
  .ARM.attributes
-                0x00000000000009db       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+                0x00000000000009db       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
  .ARM.attributes
-                0x0000000000000a08       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+                0x0000000000000a08       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
  .ARM.attributes
-                0x0000000000000a35       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+                0x0000000000000a35       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .ARM.attributes
+                0x0000000000000a62       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .ARM.attributes
+                0x0000000000000a8f       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+ .ARM.attributes
+                0x0000000000000abc       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
+ .ARM.attributes
+                0x0000000000000ae9       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+ .ARM.attributes
+                0x0000000000000b16       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .ARM.attributes
+                0x0000000000000b43       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .ARM.attributes
+                0x0000000000000b70       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+ .ARM.attributes
+                0x0000000000000b9d       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ctype_.o)
+ .ARM.attributes
+                0x0000000000000bca       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+ .ARM.attributes
+                0x0000000000000bf7       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000000000000c24       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+ .ARM.attributes
+                0x0000000000000c51       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+ .ARM.attributes
+                0x0000000000000c7e       0x2d /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
 
-.debug_frame    0x0000000000000000     0x1c34
+.debug_frame    0x0000000000000000     0x1fe8
  .debug_frame   0x0000000000000000       0x20 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cpu/vectors.o
  .debug_frame   0x0000000000000020      0x178 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o
  .debug_frame   0x0000000000000198       0x78 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(sched.o)
@@ -6006,26 +6135,38 @@ LOAD linker stubs
  .debug_frame   0x00000000000014e0       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_mulsf3.o)
  .debug_frame   0x0000000000001504       0x4c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_addsubsf3.o)
  .debug_frame   0x0000000000001550       0x24 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_arm_fixsfsi.o)
- .debug_frame   0x0000000000001574       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
- .debug_frame   0x00000000000015a0       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o)
- .debug_frame   0x0000000000001614       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
- .debug_frame   0x0000000000001650       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
- .debug_frame   0x0000000000001690       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
- .debug_frame   0x00000000000016bc       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
- .debug_frame   0x0000000000001718      0x14c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
- .debug_frame   0x0000000000001864       0x54 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
- .debug_frame   0x00000000000018b8       0xb0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
- .debug_frame   0x0000000000001968       0x58 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
- .debug_frame   0x00000000000019c0       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
- .debug_frame   0x00000000000019e0       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
- .debug_frame   0x0000000000001a18       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
- .debug_frame   0x0000000000001a48       0xac /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
- .debug_frame   0x0000000000001af4       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
- .debug_frame   0x0000000000001b54       0x88 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
- .debug_frame   0x0000000000001bdc       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
- .debug_frame   0x0000000000001c04       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001574       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-errno.o)
+ .debug_frame   0x0000000000001594       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-init.o)
+ .debug_frame   0x00000000000015c0       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-printf.o)
+ .debug_frame   0x0000000000001634       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-puts.o)
+ .debug_frame   0x0000000000001670       0x74 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-scanf.o)
+ .debug_frame   0x00000000000016e4       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wbuf.o)
+ .debug_frame   0x0000000000001724       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-wsetup.o)
+ .debug_frame   0x0000000000001750       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fflush.o)
+ .debug_frame   0x00000000000017ac      0x14c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-findfp.o)
+ .debug_frame   0x00000000000018f8       0x54 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-fwalk.o)
+ .debug_frame   0x000000000000194c       0xb0 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-lock.o)
+ .debug_frame   0x00000000000019fc       0x58 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-makebuf.o)
+ .debug_frame   0x0000000000001a54       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memset.o)
+ .debug_frame   0x0000000000001a74       0x38 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-freer.o)
+ .debug_frame   0x0000000000001aac       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-mallocr.o)
+ .debug_frame   0x0000000000001adc       0xac /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf.o)
+ .debug_frame   0x0000000000001b88       0x60 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfprintf_i.o)
+ .debug_frame   0x0000000000001be8       0xa8 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf.o)
+ .debug_frame   0x0000000000001c90       0x64 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-vfscanf_i.o)
+ .debug_frame   0x0000000000001cf4       0x40 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-refill.o)
+ .debug_frame   0x0000000000001d34       0x2c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-sccl.o)
+ .debug_frame   0x0000000000001d60       0x88 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-stdio.o)
+ .debug_frame   0x0000000000001de8       0x64 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtol.o)
+ .debug_frame   0x0000000000001e4c       0x64 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-strtoul.o)
+ .debug_frame   0x0000000000001eb0       0x5c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-ungetc.o)
+ .debug_frame   0x0000000000001f0c       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memchr-stub.o)
+ .debug_frame   0x0000000000001f34       0x28 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-memcpy-stub.o)
+ .debug_frame   0x0000000000001f5c       0x30 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-mlock.o)
+ .debug_frame   0x0000000000001f8c       0x3c /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-reallocr.o)
+ .debug_frame   0x0000000000001fc8       0x20 /opt/gcc-arm-none-eabi-9-2020-q2-update/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc_nano.a(lib_a-nano-msizer.o)
 
-.debug_loc      0x0000000000000000     0x60ea
+.debug_loc      0x0000000000000000     0x611a
  .debug_loc     0x0000000000000000      0x50c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/newlib_syscalls_default/syscalls.o
  .debug_loc     0x000000000000050c      0x1f8 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(sched.o)
  .debug_loc     0x0000000000000704      0x255 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cortexm_common.a(thread_arch.o)
@@ -6048,13 +6189,13 @@ LOAD linker stubs
  .debug_loc     0x00000000000040c3       0x4e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common.a(stm_status.o)
  .debug_loc     0x0000000000004111      0x767 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(timer.o)
  .debug_loc     0x0000000000004878      0x321 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/tsrb.a(tsrb.o)
- .debug_loc     0x0000000000004b99       0x8a /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
- .debug_loc     0x0000000000004c23       0xda /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
- .debug_loc     0x0000000000004cfd       0xd1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
- .debug_loc     0x0000000000004dce       0xd8 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
- .debug_loc     0x0000000000004ea6       0x88 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
- .debug_loc     0x0000000000004f2e       0x6e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
- .debug_loc     0x0000000000004f9c      0x21c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
- .debug_loc     0x00000000000051b8      0x307 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
- .debug_loc     0x00000000000054bf      0xb6e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
- .debug_loc     0x000000000000602d       0xbd /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)
+ .debug_loc     0x0000000000004b99       0xba /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/application_thread.a(main.o)
+ .debug_loc     0x0000000000004c53       0xda /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_mult_q31.o)
+ .debug_loc     0x0000000000004d2d       0xd1 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_abs_q31.o)
+ .debug_loc     0x0000000000004dfe       0xd8 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_add_q31.o)
+ .debug_loc     0x0000000000004ed6       0x88 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sin_q31.o)
+ .debug_loc     0x0000000000004f5e       0x6e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_cos_q31.o)
+ .debug_loc     0x0000000000004fcc      0x21c /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/cmsis-dsp.a(arm_sqrt_q31.o)
+ .debug_loc     0x00000000000051e8      0x307 /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/core.a(mutex.o)
+ .debug_loc     0x00000000000054ef      0xb6e /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/lptimer.a(lptimer_core.o)
+ .debug_loc     0x000000000000605d       0xbd /home/roman/RIOT/examples-miem/distance-gps/bin/unwd-range-l1-r3/stm32_common_periph.a(rtt.o)

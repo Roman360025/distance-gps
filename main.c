@@ -13,10 +13,17 @@ int main(void) {
 
 
     //Координаты двух чисел
-    int32_t llat1 = 557539;
-    int32_t llong1 = 376203;
-    int32_t llat2 = 568596;
-    int32_t llong2 = 359118; 
+    int32_t llat1=0;
+    int32_t llong1=0;
+    int32_t llat2 = 0;
+    int32_t llong2 = 0;
+    // Введите координаты первой точки (долгота, широта)
+    scanf("%ld %ld", &llat1, &llong1);
+    // Введите координаты второй точки (долгота, широта)
+    scanf(" %ld %ld", &llat2, &llong2);
+
+    // printf("%ld %ld\n", llat1, llong1);
+    // printf("%ld %ld\n", llat2, llong2);
 
     // Растояние между широтами и долготами, спереводом в q31
     q31_t diff_lat_long[2]; //Создаём массив для хранения полвины разницы широт и долгот
@@ -25,7 +32,7 @@ int main(void) {
 	diff_lat_long[0] = 298 * (llat2 - llat1);
     diff_lat_long[1] = 298 * (llong1 - llong2);
     arm_abs_q31(diff_lat_long, diff_lat_long, 2);
-    printf("%ld %ld\n", diff_lat_long[0], diff_lat_long[1]);
+    // printf("%ld %ld\n", diff_lat_long[0], diff_lat_long[1]);
 
 
     //Переводим широты в q31
@@ -82,10 +89,9 @@ int main(void) {
     arm_sqrt_q31(sum, &sum_sqrt);
 
     // Находим расстояние
-    printf("%ld\n", sum_sqrt);
+    // printf("%ld\n", sum_sqrt);
     int64_t itog = 2 * rad * (q63_t)sum_sqrt;
-    int32_t s = (int64_t) itog >> 31;
-    printf("%ld\n", s);
+
     int64_t distance = itog / 2147483648;
     int32_t rast = distance;
 
