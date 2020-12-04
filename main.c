@@ -79,7 +79,6 @@ int main(void) {
 
     printf("The distance: %ld\n", distance(llat1, llong1, llat2, llong2));
 
-    // Растояние между широтами и долготами, спереводом в q31
     
 
 
