@@ -55,12 +55,10 @@ int32_t distance(int32_t lat1, int32_t lon1, int32_t lat2, int32_t lon2)
     arm_sqrt_q31(sum, &sum_sqrt);
 
     // Находим расстояние
-    int64_t itog = 2 * rad * (q63_t)sum_sqrt;
-
-    int64_t distance = itog / 2147483648;
+    int64_t itog = 2 * rad * (q63_t)sum_sqrt / 2147483648;
 
 
-    return distance;
+    return itog;
 
     
 }
@@ -78,7 +76,6 @@ int main(void) {
     scanf(" %ld %ld", &llat2, &llong2);
 
     printf("The distance: %ld\n", distance(llat1, llong1, llat2, llong2));
-
     
 
 
