@@ -8,51 +8,24 @@
 #include <lptimer.h>
 
 
-int main(void) {
-    int32_t rad = 6372795; //Радиус Земли в метрах
-
-
-    //Координаты двух чисел
-    int32_t llat1=0;
-    int32_t llong1=0;
-    int32_t llat2 = 0;
-    int32_t llong2 = 0;
-    // Введите координаты первой точки (долгота, широта)
-    scanf("%ld %ld", &llat1, &llong1);
-    // Введите координаты второй точки (долгота, широта)
-    scanf(" %ld %ld", &llat2, &llong2);
-
-    // printf("%ld %ld\n", llat1, llong1);
-    // printf("%ld %ld\n", llat2, llong2);
-
-    // Растояние между широтами и долготами, спереводом в q31
-    q31_t diff_lat_long[2]; //Создаём массив для хранения полвины разницы широт и долгот
+int32_t distance(int32_t lat1, int32_t lon1, int32_t lat2, int32_t lon2)
+{
+	int32_t rad = 6372795; //Радиус Земли в метрах
+	q31_t diff_lat_long[2]; //Создаём массив для хранения полвины разницы широт и долгот
     						//[0] - lat
     						//[1] - long
-	diff_lat_long[0] = 298 * (llat2 - llat1);
-    diff_lat_long[1] = 298 * (llong1 - llong2);
+	diff_lat_long[0] = 298 * (lat2 - lat1);
+    diff_lat_long[1] = 298 * (lon1 - lon2);
     arm_abs_q31(diff_lat_long, diff_lat_long, 2);
-    // printf("%ld %ld\n", diff_lat_long[0], diff_lat_long[1]);
-
 
     //Переводим широты в q31
-    q31_t lat1 = 596 * llat1;
-    q31_t lat2 = 596 * llat2;
-
-    // arm_sub_q31(&lat2, &lat1, &dlat, 2);
-    // arm_sub_q31(&long2, &long1, &dlon, 2);
-
-    // Делим эту разницу на 2 (идём по формуле)
-    // q31_t dlat_0_5;
-    // q31_t dlon_0_5;
-    // arm_mult_q31(&dlat, &delenie_na_2, &dlat_0_5, 2);
-    // arm_mult_q31(&dlon, &delenie_na_2, &dlon_0_5, 2);
+    q31_t llat1 = 596 * lat1;
+    q31_t llat2 = 596 * lat2;
 
     // Находим синусы косинусы этих значений
     q31_t sdlat = arm_sin_q31(diff_lat_long[0]);
     q31_t sdlon = arm_sin_q31(diff_lat_long[1]);
-    // q31_t cos_lat1 = arm_cos_q31(lat1);
-    // q31_t cos_lat2 = arm_cos_q31(lat2);
+
 
     //Находим квадраты этих значений
     q31_t sdlat_2;
@@ -61,16 +34,9 @@ int main(void) {
     arm_mult_q31(&sdlon, &sdlon, &sdlon_2, 1);
 
 
-    // //В радианах, судя по всему это не нужно
-    // arm_mult_q31 (&llat1, &pi, &lat1, 2); 
-    // arm_mult_q31 (&llat2, &pi, &lat2, 2);
-    // arm_mult_q31 (&llong1, &pi, &long1, 2);
-    // arm_mult_q31 (&llong2, &pi, &long2, 2);
-
-
     // Косинусы широт
-    q31_t cl1 = arm_cos_q31 (lat1);
-    q31_t cl2 = arm_cos_q31 (lat2);
+    q31_t cl1 = arm_cos_q31 (llat1);
+    q31_t cl2 = arm_cos_q31 (llat2);
 
     // Перемножаем косинусы широт
     q31_t mcl;
@@ -89,13 +55,32 @@ int main(void) {
     arm_sqrt_q31(sum, &sum_sqrt);
 
     // Находим расстояние
-    // printf("%ld\n", sum_sqrt);
     int64_t itog = 2 * rad * (q63_t)sum_sqrt;
 
     int64_t distance = itog / 2147483648;
-    int32_t rast = distance;
 
-    printf("%ld\n", rast);
+
+    return distance;
+
+    
+}
+
+int main(void) {
+
+    //Координаты двух чисел
+    int32_t llat1=0;
+    int32_t llong1=0;
+    int32_t llat2 = 0;
+    int32_t llong2 = 0;
+    // Введите координаты первой точки (долгота, широта)
+    scanf("%ld %ld", &llat1, &llong1);
+    // Введите координаты второй точки (долгота, широта)
+    scanf(" %ld %ld", &llat2, &llong2);
+
+    printf("The distance: %ld\n", distance(llat1, llong1, llat2, llong2));
+
+    // Растояние между широтами и долготами, спереводом в q31
+    
 
 
 }
